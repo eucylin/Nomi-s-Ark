@@ -26,6 +26,7 @@ public class ExampleDragDropSurface : MonoBehaviour
             Sprite original_sprite = ddo.transform.GetChild(0).GetComponent<UI2DSprite>().sprite2D;
             //GameObject child = NGUITools.AddChild(gameObject, m_sprite);
             this.gameObject.GetComponent<SpriteRenderer>().sprite = original_sprite;
+            this.GetComponent<Collider>().enabled = false;
 
             //Transform trans = child.transform;
             //trans.position = UICamera.lastWorldPosition;

@@ -46,6 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AutoDestroyer.cs" />
+     <Compile Include="Assets\BackGroundMoving.cs" />
+     <Compile Include="Assets\BackOnClick.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
@@ -182,6 +185,7 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
      <Compile Include="Assets\Scripts\CorgiScript.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.8.2.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />

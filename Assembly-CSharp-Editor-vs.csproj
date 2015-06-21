@@ -181,6 +181,9 @@
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
      <None Include="Assets\NGUI\Examples\Resources\Localization.txt" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>D:/Users/Chien-Hsuan/Documents/Unity Projects/Nomi's Ark/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

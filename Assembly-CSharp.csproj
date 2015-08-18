@@ -46,9 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AutoDestroyer.cs" />
-     <Compile Include="Assets\BackGroundMoving.cs" />
-     <Compile Include="Assets\BackOnClick.cs" />
+     <Compile Include="Assets\BearOnClick.cs" />
+     <Compile Include="Assets\MainSceneBack.cs" />
+     <Compile Include="Assets\MidHot.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
@@ -184,8 +184,17 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITexture.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
+     <Compile Include="Assets\NomiOnClick.cs" />
+     <Compile Include="Assets\OpenHandBook.cs" />
+     <Compile Include="Assets\PictureOnClick.cs" />
+     <Compile Include="Assets\PuzzleOnClick.cs" />
+     <Compile Include="Assets\Scripts\AutoDestroyer.cs" />
+     <Compile Include="Assets\Scripts\BackGroundMoving.cs" />
+     <Compile Include="Assets\Scripts\BackOnClick.cs" />
      <Compile Include="Assets\Scripts\CorgiScript.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\MusicControl.cs" />
+     <Compile Include="Assets\SendAnswer.cs" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.8.2.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />

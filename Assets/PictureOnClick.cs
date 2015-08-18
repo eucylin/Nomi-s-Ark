@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BackOnClick : MonoBehaviour {
+public class PictureOnClick : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -15,6 +15,6 @@ public class BackOnClick : MonoBehaviour {
 
     void OnClick()
     {
-        transform.Rotate(new Vector3(0,1,0),90);
+        Application.LoadLevel(3);
     }
 }
